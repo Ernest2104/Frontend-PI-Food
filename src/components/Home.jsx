@@ -130,6 +130,8 @@ export default function Home() {
   const indexOfLastRecipe = currentPage * recipesPerPage;
   const indexOfFirstRecipe = indexOfLastRecipe - recipesPerPage;
   const currentRecipes = allRecipes.slice(indexOfFirstRecipe, indexOfLastRecipe);
+  console.log(orden)
+  console.log(SetRecipesPerPage)
   
   const pages = (pageNumber) => setCurrentPage(pageNumber);
 
