@@ -6,22 +6,25 @@ const Body = styled.body`
     padding: 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     float: left;
-    img {
-      width: 250px;
-      margin-bottom: 0px;
-    }
 `    
 const RecipeBox = styled.div`
-  width: 250px;
-  height: 300px;
+  display: flex;
+  justify-content: center;
+
+  width: 14rem;
+  height: 19rem;
   border: 2px solid lightgray;
-  padding: 2px;
+  padding: 0.5rem;
   background: beige;
   padding-bottom: 2rem;
   border-radius: 5px;
   box-shadow: -1px 2px 34px -13px rgba(0,0,0,1);
   text-align: left;
   overflow: hidden;
+  img {
+      width: 15rem;
+      margin-bottom: 0px;
+  }
   h4 {
     color: #e74c3c;
     text-transform: uppercase;

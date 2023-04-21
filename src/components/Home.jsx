@@ -14,11 +14,10 @@ const Body = styled.div`
 `
 const Menu = styled.div`
   float: left;
-  //position: fixed;
+  ${'' /* position: fixed; */}
   margin-top: 15px;
   margin-left: 5px;
   min-height: 75vh;
-  padding-top: 5px;
   background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
   border: 1px solid black;
   border-radius: 5px;
